@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="amaze" class="com.sample.spring.model.Car">
+        <constructor-arg index="0" ref="engine"/>
+        <constructor-arg index="1" ref="transmission"/>
+    </bean>
+
+    <bean id="engine" class="com.sample.spring.model.Engine">
+        <constructor-arg index="0" value="petrol"/>
+        <constructor-arg index="1" value="5"/>
+    </bean>
+
+    <bean id="transmission" class="com.sample.spring.model.Transmission">
+        <constructor-arg value="automatic"/>
+    </bean>
+
+</beans>

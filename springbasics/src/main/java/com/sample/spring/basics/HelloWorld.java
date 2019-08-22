@@ -1,4 +1,4 @@
-package com.autodesk.spring.basics;
+package com.sample.spring.basics;
 
 /**
  * @author Vaibhav Malhotra

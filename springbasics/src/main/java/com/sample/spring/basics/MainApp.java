@@ -1,4 +1,4 @@
-package com.autodesk.spring.basics;
+package com.sample.spring.basics;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

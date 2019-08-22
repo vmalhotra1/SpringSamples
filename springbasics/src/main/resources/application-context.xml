@@ -5,11 +5,11 @@
        xsi:schemaLocation = "http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
-    <bean id = "helloWorld" class = "com.autodesk.spring.basics.HelloWorld">
-        <property name = "message" value = " World!"/>
+    <bean id = "helloWorld" class = "com.sample.spring.basics.HelloWorld">
+        <property name = "message" value = "Hey World!"/>
     </bean>
 
-    <bean id = "helloWorld1" class = "com.autodesk.spring.basics.HelloWorld">
+    <bean id = "helloWorld1" class = "com.sample.spring.basics.HelloWorld">
         <property name = "message" value = "Hello World!"/>
     </bean>
 
